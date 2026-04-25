@@ -1,9 +1,1 @@
-export const metadata = { title: 'Flow State Systems' };
-
-export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
-  );
-}
+export const metadata={title:'Flow State Systems'};export default function RootLayout({children}){return <html><body style={{margin:0}}>{children}</body></html>}
