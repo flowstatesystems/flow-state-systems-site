@@ -1,0 +1,1 @@
+Upload logo as public/logo.png, then deploy to Vercel.
