@@ -33,7 +33,7 @@ return (
 
 <section id='services' style={{maxWidth:1200,margin:'0 auto',padding:'40px 24px 80px'}}>
 <h2 style={{fontSize:42,textAlign:'center'}}>Systems That Grow Revenue</h2>
-<div style={{display:'grid',gridTemplateColumns':'repeat(3,1fr)',gap:20,marginTop:30}}>
+<div style={{display:'grid',gridTemplateColumns:'repeat(3,1fr)',gap:20,marginTop:30}}>
 {cards.map(([t,d])=><div key={t} style={{background:'#0f172a',padding:28,borderRadius:24}}><h3>{t}</h3><p style={{color:'#94a3b8'}}>{d}</p></div>)}
 </div>
 </section>
