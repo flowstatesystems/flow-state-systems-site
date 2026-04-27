@@ -1,5 +1,5 @@
 {
-  "name": "flow-state-legal-bundle",
+  "name": "flow-state-complete-final",
   "private": true,
   "scripts": {
     "build": "next build",

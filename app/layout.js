@@ -1,1 +1,1 @@
-export const metadata={title:'Flow State Systems'};export default function RootLayout({children}){return <html><body style={{margin:0}}>{children}</body></html>}
+export const metadata={title:'Flow State Systems',description:'AI Automation Agency'};export default function RootLayout({children}){return <html><body style={{margin:0,fontFamily:'Arial, sans-serif',background:'#F8FAFC',color:'#0F172A'}}>{children}</body></html>}
