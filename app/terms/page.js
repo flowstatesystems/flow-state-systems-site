@@ -1,0 +1,1 @@
+export default function Terms(){return <main style={{fontFamily:'Arial',padding:'40px'}}><h1>Terms & Conditions</h1><p>Flow State Systems terms page.</p></main>}
