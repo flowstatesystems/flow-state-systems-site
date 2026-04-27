@@ -1,8 +1,7 @@
 {
-  "name": "flow-state-premium-final",
+  "name": "flow-state-legal-bundle",
   "private": true,
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
