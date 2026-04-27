@@ -1,1 +1,1 @@
-Add your logo as public/logo.png then deploy to Vercel.
+Upload to GitHub and deploy on Vercel.
