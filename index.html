@@ -1,63 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Flow State Systems</title>
-<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flow State Systems | Colorado AI Automation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
-
-<header class="nav">
-  <div class="logo">FLOW STATE SYSTEMS</div>
-  <a href="https://calendly.com/flowstatesystems-info/30min" class="btn">Book A Call</a>
-</header>
-
-<section class="hero">
-  <div class="hero-inner">
-    <div class="hero-text">
-      <h1>Never Miss Another Lead.</h1>
-      <p>
-        Automation that instantly responds to calls, texts, and website inquiries so you capture more customers automatically.
-      </p>
-      <a href="https://calendly.com/flowstatesystems-info/30min" class="btn large">Book Free Strategy Call</a>
-    </div>
-
-    <div class="hero-visual">
-      <div class="flow">
-        <div class="box">Incoming Call</div>
-        <div class="arrow">↓</div>
-        <div class="box">AI Response</div>
-        <div class="arrow">↓</div>
-        <div class="row">
-          <div class="box small">Text Back</div>
-          <div class="box small">Book Appt</div>
-          <div class="box small">Follow Up</div>
+    <nav>
+        <div class="container nav-flex">
+            <img src="logo.png" alt="Flow State Systems" class="logo">
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact" class="btn-nav">Get Started</a></li>
+            </ul>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
+    </nav>
 
-<section class="stats">
-  <div class="stat">24/7<br><span>Always On</span></div>
-  <div class="stat">2-5X<br><span>More Leads</span></div>
-  <div class="stat">100+<br><span>Clients</span></div>
-  <div class="stat">100%<br><span>Automated</span></div>
-</section>
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <span class="location-tag">Proudly Based in Colorado</span>
+                <h1>Eliminate Friction. <br><span class="gradient-text">Reach Flow State.</span></h1>
+                <p>We build custom AI systems for local service businesses. Automate your leads, scheduling, and follow-ups so you can get back to the work you love.</p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn-primary">Scale My Business</a>
+                    <a href="#services" class="btn-secondary">Explore Systems</a>
+                </div>
+            </div>
+        </div>
+    </header>
 
-<section class="calendar">
-  <h2>Book a Call</h2>
-  <div class="calendly-inline-widget"
-    data-url="https://calendly.com/flowstatesystems-info/30min"
-    style="min-width:320px;height:700px;">
-  </div>
-  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
-</section>
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Automation for the Local Legend</h2>
+            <div class="grid">
+                <div class="card">
+                    <div class="icon-circle">01</div>
+                    <h3>AI Front Desk</h3>
+                    <p>Stop losing jobs to voicemail. Our AI captures leads and books estimates 24/7 on your website and SMS.</p>
+                </div>
+                <div class="card">
+                    <div class="icon-circle">02</div>
+                    <h3>Smart Workflows</h3>
+                    <p>Sync your field software with your CRM effortlessly. No more manual data entry or missed paperwork.</p>
+                </div>
+                <div class="card">
+                    <div class="icon-circle">03</div>
+                    <h3>Review Growth</h3>
+                    <p>Automated systems that request reviews at the peak of customer satisfaction, boosting your local SEO.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<footer>
-  © 2026 Flow State Systems
-</footer>
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-card">
+                <h2>Ready for a System Upgrade?</h2>
+                <p>Book a quick discovery call to see how automation can save you 10+ hours a week.</p>
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                    <select required>
+                        <option value="" disabled selected>Service Industry</option>
+                        <option value="hvac">HVAC/Plumbing</option>
+                        <option value="landscaping">Landscaping</option>
+                        <option value="cleaning">Cleaning Services</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <button type="submit" class="btn-primary">Request Free Audit</button>
+                </form>
+            </div>
+        </div>
+    </section>
 
+    <footer>
+        <div class="container">
+            <img src="logo.png" alt="Flow State Systems" class="logo-footer">
+            <p>&copy; 2026 Flow State Systems LLC. Operating out of Colorado.</p>
+            <div class="footer-legal">
+                <a href="legal.html#privacy">Privacy Policy</a>
+                <a href="legal.html#terms">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
