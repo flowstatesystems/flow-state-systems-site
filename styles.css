@@ -1,74 +1,117 @@
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #ffffff;
-  color: #111;
+  margin:0;
+  font-family:-apple-system,BlinkMacSystemFont,sans-serif;
+  background:#ffffff;
+  color:#0f172a;
 }
 
-.nav {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 40px;
-  border-bottom: 1px solid #eee;
+.nav{
+  display:flex;
+  justify-content:space-between;
+  padding:20px 40px;
+  border-bottom:1px solid #eee;
 }
 
-.logo {
-  font-weight: bold;
+.logo{
+  font-weight:600;
 }
 
-.hero {
-  text-align: center;
-  padding: 100px 20px;
+.btn{
+  background:#10b981;
+  color:white;
+  padding:12px 18px;
+  border-radius:8px;
+  text-decoration:none;
 }
 
-.hero h1 {
-  font-size: 48px;
-  margin-bottom: 20px;
+.btn.large{
+  padding:16px 28px;
+  font-size:18px;
 }
 
-.hero p {
-  max-width: 600px;
-  margin: auto;
-  margin-bottom: 30px;
-  color: #555;
+.hero{
+  padding:100px 40px;
 }
 
-.btn {
-  background: #00a86b;
-  color: white;
-  padding: 12px 20px;
-  text-decoration: none;
-  border-radius: 8px;
+.hero-inner{
+  display:flex;
+  gap:60px;
+  align-items:center;
+  max-width:1100px;
+  margin:auto;
 }
 
-.btn.large {
-  padding: 16px 28px;
-  font-size: 18px;
+.hero-text h1{
+  font-size:56px;
+  margin-bottom:20px;
 }
 
-.features {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  padding: 60px 20px;
+.hero-text p{
+  font-size:18px;
+  color:#475569;
+  max-width:500px;
 }
 
-.card {
-  background: #f9f9f9;
-  padding: 30px;
-  border-radius: 10px;
-  width: 250px;
-  text-align: center;
+.hero-visual{
+  background:#f8fafc;
+  padding:30px;
+  border-radius:16px;
 }
 
-.calendar {
-  padding: 60px 20px;
-  text-align: center;
+.flow{
+  text-align:center;
 }
 
-footer {
-  text-align: center;
-  padding: 40px;
-  font-size: 14px;
-  color: #666;
+.box{
+  background:white;
+  padding:15px;
+  border-radius:10px;
+  margin:10px auto;
+  box-shadow:0 10px 20px rgba(0,0,0,0.05);
+}
+
+.small{
+  display:inline-block;
+  width:90px;
+}
+
+.row{
+  display:flex;
+  gap:10px;
+  justify-content:center;
+}
+
+.arrow{
+  font-size:20px;
+  margin:5px 0;
+}
+
+.stats{
+  display:flex;
+  justify-content:center;
+  gap:40px;
+  padding:60px;
+  background:#f8fafc;
+}
+
+.stat{
+  font-size:24px;
+  text-align:center;
+}
+
+.stat span{
+  display:block;
+  font-size:14px;
+  color:#64748b;
+}
+
+.calendar{
+  padding:80px 20px;
+  text-align:center;
+}
+
+footer{
+  padding:40px;
+  text-align:center;
+  color:#64748b;
 }
