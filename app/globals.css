@@ -1,4 +1,98 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-html,body{margin:0;padding:0;font-family:Arial,sans-serif;}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #ffffff;
+  color: #0f172a;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  border-bottom: 1px solid #eee;
+}
+.logo {
+  font-weight: 700;
+}
+.btn {
+  background: #10b981;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.hero {
+  padding: 100px 40px;
+}
+.hero-inner {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  max-width: 1100px;
+  margin: auto;
+}
+.left h1 {
+  font-size: 56px;
+  margin-bottom: 20px;
+}
+.left p {
+  font-size: 18px;
+  color: #475569;
+}
+.large {
+  padding: 16px 28px;
+  display: inline-block;
+  margin-top: 20px;
+}
+.flow-card {
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+  text-align: center;
+}
+.node {
+  background: #f1f5f9;
+  padding: 12px;
+  border-radius: 12px;
+  margin: 10px;
+}
+.main {
+  background: #e2e8f0;
+  font-weight: 600;
+}
+.row {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.line {
+  height: 20px;
+  width: 2px;
+  background: #cbd5e1;
+  margin: auto;
+}
+.section {
+  background: #f8fafc;
+  padding: 80px 40px;
+}
+.cards {
+  display: flex;
+  gap: 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 14px;
+  flex: 1;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+.calendar {
+  padding: 80px 40px;
+  text-align: center;
+}
