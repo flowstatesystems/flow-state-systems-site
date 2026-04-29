@@ -10,11 +10,14 @@ export default function Home() {
 
       <section className="hero">
         <div className="hero-inner">
+
           <div className="left">
             <h1>Never Miss Another Lead.</h1>
+
             <p>
-              We build automations that instantly respond to calls, texts, and website inquiries — so you capture more customers automatically.
+              Automation that instantly responds to calls, texts, and website inquiries so you capture more customers automatically.
             </p>
+
             <a href="https://calendly.com/flowstatesystems-info/30min" className="btn large">
               Book Free Strategy Call
             </a>
@@ -22,17 +25,22 @@ export default function Home() {
 
           <div className="right">
             <div className="flow-card">
+
               <div className="node main">Incoming Call</div>
               <div className="line"></div>
+
               <div className="node main">AI Receptionist</div>
               <div className="line"></div>
+
               <div className="row">
                 <div className="node">Text Back</div>
                 <div className="node">Book Appointment</div>
                 <div className="node">Follow Up</div>
               </div>
+
             </div>
           </div>
+
         </div>
       </section>
 
@@ -47,6 +55,7 @@ export default function Home() {
 
       <section className="calendar">
         <h2>Book a Call</h2>
+
         <iframe
           src="https://calendly.com/flowstatesystems-info/30min"
           width="100%"
