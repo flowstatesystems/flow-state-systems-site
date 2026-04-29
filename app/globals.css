@@ -1,98 +1,147 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
   background: #ffffff;
   color: #0f172a;
 }
+
+/* NAV */
 .nav {
   display: flex;
   justify-content: space-between;
   padding: 20px 40px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #f1f5f9;
 }
+
 .logo {
   font-weight: 700;
+  letter-spacing: 0.5px;
 }
+
+/* BUTTON */
 .btn {
-  background: #10b981;
+  background: linear-gradient(135deg, #10b981, #34d399);
   color: white;
-  padding: 12px 20px;
-  border-radius: 10px;
+  padding: 12px 22px;
+  border-radius: 12px;
   text-decoration: none;
+  font-weight: 600;
+  transition: all 0.2s ease;
 }
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(16,185,129,0.2);
+}
+
+.large {
+  padding: 16px 28px;
+  margin-top: 25px;
+  display: inline-block;
+}
+
+/* HERO */
 .hero {
-  padding: 100px 40px;
+  padding: 120px 40px 80px;
 }
+
 .hero-inner {
   display: flex;
-  gap: 60px;
+  gap: 80px;
   align-items: center;
-  max-width: 1100px;
+  max-width: 1150px;
   margin: auto;
 }
+
 .left h1 {
-  font-size: 56px;
+  font-size: 64px;
+  line-height: 1.1;
   margin-bottom: 20px;
 }
+
 .left p {
   font-size: 18px;
   color: #475569;
+  max-width: 500px;
 }
-.large {
-  padding: 16px 28px;
-  display: inline-block;
-  margin-top: 20px;
-}
+
+/* FLOW CARD (THIS is what makes it feel premium) */
 .flow-card {
-  background: white;
+  background: linear-gradient(180deg, #ffffff, #f8fafc);
   border-radius: 20px;
   padding: 30px;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+  box-shadow: 0 30px 60px rgba(0,0,0,0.08);
+  border: 1px solid #f1f5f9;
   text-align: center;
+  width: 320px;
 }
+
 .node {
-  background: #f1f5f9;
-  padding: 12px;
+  background: white;
+  padding: 14px;
   border-radius: 12px;
   margin: 10px;
+  font-size: 14px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.05);
 }
+
 .main {
-  background: #e2e8f0;
+  background: #ecfdf5;
+  color: #065f46;
   font-weight: 600;
 }
+
 .row {
   display: flex;
   gap: 10px;
   justify-content: center;
 }
+
 .line {
   height: 20px;
   width: 2px;
-  background: #cbd5e1;
+  background: #d1fae5;
   margin: auto;
 }
+
+/* STATS */
 .section {
   background: #f8fafc;
-  padding: 80px 40px;
+  padding: 100px 40px;
 }
+
 .cards {
   display: flex;
   gap: 20px;
   max-width: 1100px;
   margin: auto;
 }
+
 .card {
   background: white;
-  padding: 30px;
-  border-radius: 14px;
+  padding: 35px;
+  border-radius: 16px;
   flex: 1;
   text-align: center;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.06);
+  transition: 0.2s;
 }
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* CALENDAR */
 .calendar {
-  padding: 80px 40px;
+  padding: 100px 40px;
   text-align: center;
+}
+
+.calendar h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
 }
